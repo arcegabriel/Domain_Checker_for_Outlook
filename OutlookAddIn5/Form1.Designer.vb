@@ -24,11 +24,11 @@ Partial Class Confform
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Confform))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.btn_send = New System.Windows.Forms.Button()
+        Me.btn_send_and_remember = New System.Windows.Forms.Button()
+        Me.btn_cancel = New System.Windows.Forms.Button()
+        Me.lbl_list_of_domains = New System.Windows.Forms.Label()
+        Me.lbl_confirmation_question = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ToolTip2 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ToolTip3 = New System.Windows.Forms.ToolTip(Me.components)
@@ -36,64 +36,64 @@ Partial Class Confform
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button1
+        'btn_send
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(75, 18)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(142, 50)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Send"
-        Me.ToolTip1.SetToolTip(Me.Button1, "Send this time. Prompt me again for future emails")
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn_send.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_send.Location = New System.Drawing.Point(75, 18)
+        Me.btn_send.Name = "btn_send"
+        Me.btn_send.Size = New System.Drawing.Size(142, 50)
+        Me.btn_send.TabIndex = 2
+        Me.btn_send.Text = "Send"
+        Me.ToolTip1.SetToolTip(Me.btn_send, "Send this time. Prompt me again for future emails")
+        Me.btn_send.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btn_send_and_remember
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(236, 18)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(142, 50)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Send and Remember"
-        Me.ToolTip2.SetToolTip(Me.Button2, "Send this time. Send without prompting next time for this domains")
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btn_send_and_remember.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_send_and_remember.Location = New System.Drawing.Point(236, 18)
+        Me.btn_send_and_remember.Name = "btn_send_and_remember"
+        Me.btn_send_and_remember.Size = New System.Drawing.Size(142, 50)
+        Me.btn_send_and_remember.TabIndex = 3
+        Me.btn_send_and_remember.Text = "Send and Remember"
+        Me.ToolTip2.SetToolTip(Me.btn_send_and_remember, "Send this time. Send without prompting next time for this domains")
+        Me.btn_send_and_remember.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btn_cancel
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(396, 18)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(142, 50)
-        Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Cancel"
-        Me.ToolTip3.SetToolTip(Me.Button3, "Don't Send. Return to message")
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn_cancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_cancel.Location = New System.Drawing.Point(396, 18)
+        Me.btn_cancel.Name = "btn_cancel"
+        Me.btn_cancel.Size = New System.Drawing.Size(142, 50)
+        Me.btn_cancel.TabIndex = 1
+        Me.btn_cancel.Text = "Cancel"
+        Me.ToolTip3.SetToolTip(Me.btn_cancel, "Don't Send. Return to message")
+        Me.btn_cancel.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lbl_list_of_domains
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(28, 28)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(511, 72)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
+        Me.lbl_list_of_domains.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_list_of_domains.Location = New System.Drawing.Point(28, 28)
+        Me.lbl_list_of_domains.Name = "lbl_list_of_domains"
+        Me.lbl_list_of_domains.Size = New System.Drawing.Size(511, 72)
+        Me.lbl_list_of_domains.TabIndex = 4
+        Me.lbl_list_of_domains.Text = "Label1"
         '
-        'Label2
+        'lbl_confirmation_question
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(28, 110)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 20)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Label2"
+        Me.lbl_confirmation_question.AutoSize = True
+        Me.lbl_confirmation_question.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_confirmation_question.Location = New System.Drawing.Point(28, 110)
+        Me.lbl_confirmation_question.Name = "lbl_confirmation_question"
+        Me.lbl_confirmation_question.Size = New System.Drawing.Size(59, 20)
+        Me.lbl_confirmation_question.TabIndex = 5
+        Me.lbl_confirmation_question.Text = "Label2"
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.btn_cancel)
+        Me.Panel1.Controls.Add(Me.btn_send_and_remember)
+        Me.Panel1.Controls.Add(Me.btn_send)
         Me.Panel1.Location = New System.Drawing.Point(-2, 157)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(566, 91)
@@ -106,8 +106,8 @@ Partial Class Confform
         Me.BackColor = System.Drawing.SystemColors.Window
         Me.ClientSize = New System.Drawing.Size(562, 247)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lbl_confirmation_question)
+        Me.Controls.Add(Me.lbl_list_of_domains)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Confform"
         Me.Text = "Confirmation"
@@ -116,11 +116,11 @@ Partial Class Confform
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As Windows.Forms.Button
-    Friend WithEvents Button2 As Windows.Forms.Button
-    Friend WithEvents Button3 As Windows.Forms.Button
-    Friend WithEvents Label1 As Windows.Forms.Label
-    Friend WithEvents Label2 As Windows.Forms.Label
+    Friend WithEvents btn_send As Windows.Forms.Button
+    Friend WithEvents btn_send_and_remember As Windows.Forms.Button
+    Friend WithEvents btn_cancel As Windows.Forms.Button
+    Friend WithEvents lbl_list_of_domains As Windows.Forms.Label
+    Friend WithEvents lbl_confirmation_question As Windows.Forms.Label
     Friend WithEvents ToolTip1 As Windows.Forms.ToolTip
     Friend WithEvents ToolTip2 As Windows.Forms.ToolTip
     Friend WithEvents ToolTip3 As Windows.Forms.ToolTip

@@ -1,0 +1,17 @@
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Domain Checker.dll
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Domain Checker.pdb
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Domain Checker.xml
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Domain Checker.dll.manifest
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Domain Checker.vsto
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\bin\Release\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.vbproj.AssemblyReference.cache
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.Ribbon1.resources
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.Confform.resources
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.Resources.resources
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.vbproj.GenerateResource.cache
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.vbproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\OutlookAddIn5.vbproj.CopyComplete
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\Domain Checker.dll
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\Domain Checker.xml
+C:\Users\Gabriel\source\repos\OutlookAddIn5\OutlookAddIn5\obj\Release\Domain Checker.pdb

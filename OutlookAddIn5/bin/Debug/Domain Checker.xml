@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Domain Checker
+</name>
+</assembly>
+<members>
+<member name="T:OutlookAddIn5.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OutlookAddIn5.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OutlookAddIn5.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OutlookAddIn5.My.Resources.Resources._360_F_307608274_hpS0z7dYCwsqTbdihsh76OPNyQ38PcDx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:OutlookAddIn5.ThisRibbonCollection">
+
+</member>
+<member name="M:OutlookAddIn5.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+
+</member>
+<member name="T:OutlookAddIn5.ThisAddIn">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.#ctor(Microsoft.Office.Tools.Outlook.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.Initialize">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.FinishInitialization">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.InitializeDataBindings">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.InitializeCachedData">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.InitializeData">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.BindToData">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.StartCaching(System.String)">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.StopCaching(System.String)">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.IsCached(System.String)">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.BeginInitialization">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.EndInitialization">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.InitializeControls">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.InitializeComponents">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.NeedsFill(System.String)">
+
+</member>
+<member name="M:OutlookAddIn5.ThisAddIn.OnShutdown">
+
+</member>
+<member name="T:OutlookAddIn5.Globals">
+
+</member>
+<member name="M:OutlookAddIn5.Globals.#ctor">
+
+</member>
+<member name="T:OutlookAddIn5.ThisFormRegionCollection">
+
+</member>
+<member name="M:OutlookAddIn5.ThisFormRegionCollection.#ctor(System.Collections.Generic.IList{Microsoft.Office.Tools.Outlook.IFormRegion})">
+
+</member>
+<member name="T:OutlookAddIn5.WindowFormRegionCollection">
+
+</member>
+<member name="M:OutlookAddIn5.WindowFormRegionCollection.#ctor(System.Collections.Generic.IList{Microsoft.Office.Tools.Outlook.IFormRegion})">
+
+</member>
+</members>
+</doc>

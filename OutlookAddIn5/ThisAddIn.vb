@@ -2,6 +2,7 @@
 Public Class GlobalVariables
     Public Shared FILEFOLDER As String = My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\ConfigFiles"
     Public Shared FILEPATH As String = FILEFOLDER & "\Recipients.txt"
+    Public Shared giturl As String = "https://github.com/arcegabriel/Domain_Checker_for_Outlook/tree/master"
 End Class
 Public Class ThisAddIn
 
