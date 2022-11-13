@@ -6,6 +6,6 @@ It will ignore your own domain as you most likely copy people from your own doma
 
 Tested on Outlook / Office 365 installed on Windows 10 when integrating MAPI emails
 
-To install download Domain Checker Installer.zip and unzip on your computer. Then open folder and run setup. If properly installed, outlook will show an "Add-Ins" tab in teh ribbon
+To install download Domain Checker Installer.zip and unzip on your computer. Then open folder and run setup. If properly installed, outlook will show an "Add-Ins" tab in the ribbon. 
 
 ![image](https://user-images.githubusercontent.com/24392647/201500541-c604f51f-29d1-4a6c-941a-36b13e0b1292.png)
