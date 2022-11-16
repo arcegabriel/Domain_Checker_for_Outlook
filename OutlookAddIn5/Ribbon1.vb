@@ -13,23 +13,15 @@ Public Class Ribbon1
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As RibbonControlEventArgs)
-        System.Diagnostics.Process.Start("notepad.exe ", GlobalVariables.FILEPATH)
-    End Sub
-
     Private Sub Button5_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_config.Click
         System.Diagnostics.Process.Start("notepad.exe ", GlobalVariables.FILEPATH)
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_contact.Click
-
-    End Sub
-
-    Private Sub Button4_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_updates.Click
-
+        System.Diagnostics.Process.Start("https://github.com/arcegabriel/Domain_Checker_for_Outlook")
     End Sub
 
     Private Sub btn_domainchecker_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_domainchecker.Click
-        MsgBox("Clicked!")
+        MsgBox("Version" & System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString)
     End Sub
 End Class
