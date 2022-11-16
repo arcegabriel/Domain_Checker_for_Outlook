@@ -34,14 +34,14 @@
     <PublishUrl>C:\Users\Gabriel\Documents\Deployments\Server\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.10</ApplicationVersion>
+    <ApplicationVersion>1.0.0.11</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateInterval>0</UpdateInterval>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>Domain Checker</ProductName>
-    <PublisherName>VSTO GOA</PublisherName>
-    <SupportUrl>https://github.com/arcegabriel/Domain_Checker_for_Outlook</SupportUrl>
+    <PublisherName>VBA GOA</PublisherName>
+    <SupportUrl />
     <FriendlyName>Domain Checker</FriendlyName>
     <OfficeApplicationDescription />
     <LoadBehavior>3</LoadBehavior>
@@ -223,6 +223,7 @@
     </Compile>
     <EmbeddedResource Include="Ribbon1.resx">
       <DependentUpon>Ribbon1.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="OutlookAddIn4_TemporaryKey.pfx" />
     <None Include="ThisAddIn.Designer.xml">

@@ -13,19 +13,23 @@ Public Class Ribbon1
 
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As RibbonControlEventArgs)
+        System.Diagnostics.Process.Start("notepad.exe ", GlobalVariables.FILEPATH)
+    End Sub
+
     Private Sub Button5_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_config.Click
         System.Diagnostics.Process.Start("notepad.exe ", GlobalVariables.FILEPATH)
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_contact.Click
-        System.Diagnostics.Process.Start(GlobalVariables.giturl)
+
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As RibbonControlEventArgs)
+    Private Sub Button4_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_updates.Click
 
     End Sub
 
     Private Sub btn_domainchecker_Click(sender As Object, e As RibbonControlEventArgs) Handles btn_domainchecker.Click
-        System.Diagnostics.Process.Start(GlobalVariables.giturl)
+        MsgBox("Clicked!")
     End Sub
 End Class

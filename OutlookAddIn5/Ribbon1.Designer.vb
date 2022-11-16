@@ -45,6 +45,7 @@
         Me.Tab1 = Me.Factory.CreateRibbonTab
         Me.Group1 = Me.Factory.CreateRibbonGroup
         Me.btn_domainchecker = Me.Factory.CreateRibbonButton
+        Me.btn_updates = Me.Factory.CreateRibbonButton
         Me.btn_config = Me.Factory.CreateRibbonButton
         Me.btn_contact = Me.Factory.CreateRibbonButton
         Me.Tab1.SuspendLayout()
@@ -61,6 +62,7 @@
         'Group1
         '
         Me.Group1.Items.Add(Me.btn_domainchecker)
+        Me.Group1.Items.Add(Me.btn_updates)
         Me.Group1.Items.Add(Me.btn_config)
         Me.Group1.Items.Add(Me.btn_contact)
         Me.Group1.Label = "Domain Checker"
@@ -73,6 +75,11 @@
         Me.btn_domainchecker.Label = " Domain Checker"
         Me.btn_domainchecker.Name = "btn_domainchecker"
         Me.btn_domainchecker.ShowImage = True
+        '
+        'btn_updates
+        '
+        Me.btn_updates.Label = "Updates"
+        Me.btn_updates.Name = "btn_updates"
         '
         'btn_config
         '
@@ -100,6 +107,7 @@
     Friend WithEvents Tab1 As Microsoft.Office.Tools.Ribbon.RibbonTab
     Friend WithEvents Group1 As Microsoft.Office.Tools.Ribbon.RibbonGroup
     Friend WithEvents btn_domainchecker As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents btn_updates As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents btn_config As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents btn_contact As Microsoft.Office.Tools.Ribbon.RibbonButton
 End Class

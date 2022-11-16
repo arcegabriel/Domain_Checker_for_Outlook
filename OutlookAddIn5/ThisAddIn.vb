@@ -2,7 +2,6 @@
 Public Class GlobalVariables
     Public Shared FILEFOLDER As String = My.Computer.FileSystem.SpecialDirectories.MyDocuments & "\ConfigFiles"
     Public Shared FILEPATH As String = FILEFOLDER & "\Recipients.txt"
-    Public Shared giturl As String = "https://github.com/arcegabriel/Domain_Checker_for_Outlook/tree/master"
 End Class
 Public Class ThisAddIn
 
@@ -28,19 +27,10 @@ Public Class ThisAddIn
         Dim pjdomains() As String
         Dim str1 As String
         Dim recipientarray() As String
-        'Dim firstpass As Boolean
-        Dim extrecipientcount As Integer
+
         Dim configfileexist As Boolean
         Dim Reconfirm As Boolean
-        'Dim projectdomains As Object
-        Dim externalrecipients As Boolean
         Dim temptemp As Boolean
-        'Dim FILEFOLDER As String
-        'Dim FILEPATH As String
-
-        'Const FILEFOLDER = "C:\Users\Gabriel\Documents\ConfigFiles"
-        'Const FILEPATH = "C:\Users\Gabriel\Documents\ConfigFiles\Recipients.txt"
-
         Dim jdomains() As String
         'UserForm1.Tag = "1"
         Reconfirm = True
@@ -98,7 +88,7 @@ Public Class ThisAddIn
         End If
 
         'filter list of external recipients
-        extrecipientcount = 0
+        'extrecipientcount = 0
         'firstpass = True
         ReDim Preserve recipientarray(0)
         recips = Item.Recipients
@@ -109,23 +99,13 @@ Public Class ThisAddIn
             lLen = Len(Address) - InStrRev(Address, "@")
             str1 = Right(Address, lLen)
             If str1 <> strMyDomain Then
-                'If firstpass = True Then
-                'Resolving unallocated array issue
-                'ReDim Preserve recipientarray(0)
-                'recipientarray(0) = str1
-                'extrecipientcount = extrecipientcount + 1
-                'firstpass = False
-                'Else
                 recipientarray = Addnewstrarray(recipientarray, str1)
-                extrecipientcount = extrecipientcount + 1
-                'End If
-                externalrecipients = True
             End If
         Next
 
         'Cycle through allowed list and recipients and decide whether to show prompt
         'avoiding issue of unallocated array
-        If extrecipientcount > 1 Then
+        If UBound(recipientarray) > 0 Then
             'MsgBox ("email domains: " & Join(recipientarray, ", ") & " count " & UBound(recipientarray))
             For j = LBound(pjdomains) To UBound(pjdomains)
                 jdomains = Split(pjdomains(j), ", ")

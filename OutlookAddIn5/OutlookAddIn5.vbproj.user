@@ -3,7 +3,8 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
     <PublishUrlHistory>C:\Users\Gabriel\Documents\Deployments\Server\</PublishUrlHistory>
-    <InstallUrlHistory>https://github.com/arcegabriel/Domain_Checker_for_Outlook/tree/master/</InstallUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
     <SupportUrlHistory>https://github.com/arcegabriel/Domain_Checker_for_Outlook</SupportUrlHistory>
   </PropertyGroup>
 </Project>
